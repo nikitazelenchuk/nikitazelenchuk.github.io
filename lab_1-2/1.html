@@ -1,0 +1,194 @@
+<!DOCTYPE html> <!--предназначен для указания типа текущего документа (чтобы браузер понимал, как следует интерпретировать текущую веб-страницу, поскольку HTML существует в нескольких версиях)-->
+<html lang='ru'>
+	<head>
+        <title> Лабораторная работа 1-2 </title>
+		<!--используются для хранения информации предназначенной для браузеров и поисковых систем. Например, механизмы поисковых систем обращаются к метатегам для получения описания сайта, ключевых слов и других данных-->
+        <meta charset="utf-8"> <!--кодировка (рекомендвано)-->
+        <meta name="authors" content="Nikita Zelenchuk &amp; Dmitry Popovichenko"> <!--name- косвенно устанавливает его предназначение.content - установка значения тега-->
+        <meta name="description" content="Lab rab 1, Web-prog">
+        <link href="Стили1.css" rel="stylesheet" type="text/css">
+        <link href="Стили2.css" rel="stylesheet" type="text/css">
+        <link href="Крест на красном квадрате.css" rel="stylesheet" type="text/css">
+		<style>
+			th, td
+			{
+				border: 5px solid blue;
+				padding: 40px 40px
+			}
+            u
+            {
+                color:black;
+            }
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align: center" id="tic">Статический html документ</h1>
+		<h3><u style="color:red">А.С.Пушкин</u></h3>
+        <p> Я <sub>помню</sub> чудное мгновенье:<br>
+		<b>Передо</b> мной <i>явилась</i> ты,<br>
+		Как <b><i>мимолетное</i></b> <sup>виденье,</sup><br>
+        Как гений чистой красоты.</p> <!-- у р пустая строка для разделения-->
+		
+		<div class="myDiv" style="color:purple">Язык разметки гипертекста HTML (<mark style="background: #ffec82">Hypertext markup language</mark>) — язык разметки, используемый для создания гипертекстовых html-документов, отображаемых браузером.</div>
+        <div><span class="mySpan">Р</span>азметка — вставка в текст дополнительных служебных символов, каждый из которых является командой, указывающей браузеру, как следует от<span class="mySpan">обра</span>жать документ.</div> </p>
+		
+		<div>
+		1
+		</div>
+		<div>
+		2
+		</div>
+		<div>
+		3
+		</div> </p>
+		<span>
+		  4
+		</span>
+		<span>
+		  5
+		</span>
+		<span>
+		  6
+		</span>
+		
+		<pre>
+                ````___________`
+                ```/``````````/|
+                ``/__________/`|`
+                ``|``````````|`|`
+                ``|```____ ```|`|
+                ``|``|`|``|```|`|
+                ``|``|`|``|```|`|
+                ``|``|`|``|```|`|
+                ``|``|`|``|```|`|`
+                ``|``|`|``|```|`|
+                ``|__|/```|___|/`
+                ``
+                ````__________`
+                ```/````````/ |
+                ``/________/ `|
+                ``|```__ _``|`|
+                ``|``|`|`| `|`|
+                ``|``|/__|``|`|
+                ``|````````|`|
+                ``|```_____|/`
+                ``|``|`|
+                ``|``|`|
+                ``|__|/`
+
+                ```___````___`
+                ``/``/|```/``/|
+                `/__/`|``/__/`|
+                `|``|`|`/```|`|
+                `|``|`|/````|`|
+                `|``|`/`````|`|
+                `|``|/``/|``|`|
+                `|`````/`|``|`|
+                `|````/``|``|`|
+                `|```/```|``|`|`
+                `|__/````|__|/`
+                ``
+                ```_______
+                ``/``````/|`
+                `/______/`|
+                `|``___`|`|___
+                `|`|`|_|`|`/```/|
+                `|`|/__|`|/___/`|
+                `|```______`|`|
+                `|``|`|____|`|`|
+                `|``|/_____|`|`|
+                `|``````````|`|
+                `|__________|/
+                `
+                ``_______
+                `/_______/|
+                `|``_____|/
+                `|``|`|
+                `|``|`|__
+                `|``|/__`/|
+                `|```___|/
+                `|``|`|
+                `|``|`|_____
+                `|``|/______/|
+                `|_________|/
+                ```___________
+                ``/```````````/|
+                `/___________/`|
+                `|```````````|`|
+                `|___________|/
+                `````|```|`|
+                `````|```|`|
+                `````|```|`|
+                `````|```|`|
+                `````|```|`|
+                `````|___|/`
+                ```````````
+		</pre>
+		
+		<details>
+			<summary>Скрытое</summary>
+			<p>Язык разметки гипертекста HTML не является языком программирования.</p>
+		</details>
+		
+        <figure>
+            <p style="margin-bottom: 0"><img src="Non.jpg" alt="Место не пусто"></p>
+            <figcaption>Картинка Apple II</figcaption>
+        </figure>
+		
+		<p><a href="#tic">Нажатие на якорь</a></p>
+		<p><a href="mailto:nikitazelenchuk@gmail.com">Нажатие на почту</a></p>
+		
+		<ol type="a" start="13">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ol>
+		
+		<div>
+			<table style=" border-collapse: collapse; width: 300px">
+				<caption>Таблица</caption>
+				<tbody>
+					<tr>
+						<td rowspan="3"> </td>
+						<td colspan="2"> </td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td rowspan = "2"> </td> 
+					</tr>
+					<tr>
+						<td> </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+			
+            <hr class="myHR">
+            <hr>
+		
+		<form action="URL">
+			<p><b>Выбор</b></p>
+			<p>
+				<input type="checkbox" name="name" value="a1">HTML<br>
+				<input type="checkbox" name="name" value="a2" checked>CSS<br>
+                <input type="checkbox" name="name" value="a2" checked>JavaScript<br>
+			</p>
+			
+			<p>
+				Выберите цвет: <br>
+				<input type="color" name="bg" value="#ffa500">
+				<input type="submit">
+				<input type="reset">
+			</p>
+		</form>
+		
+        <p>
+            <div class="square">
+                <div class="cross">
+                </div>
+            </div>
+        </p>
+        
+	</body>
+
+</html>
