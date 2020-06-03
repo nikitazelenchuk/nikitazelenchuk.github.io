@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+}
+
+div.footer-container{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+}
+
+div.footer{
+	text-align: center;
+	height: 40px;
+	background: #646464;
+}
+p.copy{
+	padding-top: 10px; 
+}
+
+div.photo-container{
+	width: 100%;	
+}
+
+/*
+Home Section style
+==================*/
+.home{
+    background: url(../img/1.jpg) no-repeat bottom center;
+    background-size: cover;
+    position: relative;
+}
+.main_home{
+    overflow: hidden;
+    padding-top: 300px;
+    padding-bottom: 230px;
+    position: relative;
+    z-index: 1;
+}
+.home_text h2{
+	padding-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size:3.286rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.text-white{
+	color: #FFF;
+}
+
+/*
+    Main style
+*/
+.bodyHead h2{
+    text-align: center;
+    font-family:Arial, sans-serif;
+    color: #6f6f6f;
+    margin-top: 40px;
+}
+
+.descrtiption{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#exception{
+	color: red;
+	text-align: center;
+	font-size:14px;
+    font-family:Arial, sans-serif;
+    padding-top: 5px;
+}
+
+.mainPhoto{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url('../img/2.jpg');
+}
+
+.textHead{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 135px;
+}
+
+.colorPhoto{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url('../img/3.jpg');
+}
+
+.informationPhoto{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url('../img/4.jpg');
+}
+
+.commentPhoto{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url('../img/5.jpg');
+}
+
+.commentForm{
+    width: 70%;
+    margin: 0 auto;
+}

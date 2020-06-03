@@ -1,0 +1,62 @@
+div.container{
+	padding-top: 100px;
+}
+div.form-container{
+	width: 20%;
+	margin-left: 40%;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	background: #FFF;
+}
+div.login-head{
+	background: #646464;
+	color: #FFF;
+	font-size:17px;
+    font-family:Arial, sans-serif;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 4px;
+	border-radius: 5px;
+	border: 1px solid #646464
+}
+span.login-text{
+	margin-left: 5px;
+	font-size:14px;
+    font-family:Arial, sans-serif;
+}
+input.login{
+	color: #000;
+	position: inherit;
+	margin-top: 5px;
+	width: 95%;
+	padding: 5px;
+	font-size:14px;
+    font-family:Arial, sans-serif;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+div.button{
+	text-align: center;
+}
+input.button{
+	width: 83px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+#exceptionLog{
+	color: red;
+	text-align: center;
+	font-size:14px;
+    font-family:Arial, sans-serif;
+    padding-top: 5px;
+}
+
+#exceptionPas{
+	color: red;
+	text-align: center;
+	font-size:14px;
+    font-family:Arial, sans-serif;
+    padding-top: 5px;
+}
